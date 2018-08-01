@@ -1,0 +1,16 @@
+
+
+#grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin:  50px;
+}
+
+#grid div {
+    border : 1px red solid;
+    height: 20px;
+}
+
+flex div {
+border: 1px solid red;
+}

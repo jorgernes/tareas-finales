@@ -1,0 +1,35 @@
+/* #flex {
+
+
+    display:flex;
+}
+
+ #flex div {
+        border: 1px red solid;
+        height: 100px;
+        justify-content: center;
+    }
+   
+    
+    #flex #card {
+    height: 150 px;
+    width: 50%;
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr;
+    
+    margin: 20px 0;
+    }
+    #flex card #button {
+        grid-column: 1/3;
+        }
+
+        */#grid {
+            display: grid;
+            grid-template-columns: 2fr 3fr;
+            margin: 50px;
+        }
+
+        #grid div {
+            border: 1px red solid;
+            height: 200px;
+        }
